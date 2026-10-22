@@ -1,0 +1,4 @@
+# Delivery status
+Complete: responsive homepage and sections, offer carousel with pause/visibility/focus/reduced-motion behavior, catalogue filtering and sorting, variants, cart, demo account gating, single-item Buy Now, sample checkout, payment pending and duplicate claim checks, order history, simulated admin verification/rejection and fulfillment advancement, offer toggles and documentation.
+
+Remaining for production: real assets/brand/contact/policies; actual garment sizes and fabric data; independent product/color gallery images; provider-managed auth/reset/verification, database and secure roles; authoritative pricing, stock reservations/expiry and concurrency constraints; payment account onboarding, private uploads and reconciliation; complete CRUD admin forms and campaign scheduling; rate limits, monitoring, backups, email, courier, SEO canonical/sitemap and browser/device QA.

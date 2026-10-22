@@ -1,0 +1,4 @@
+# Sample manual payment workflow
+Demo login → checkout → unpaid sample order → payment instructions (account NOT CONFIGURED) → transaction details → verification_pending → Demo Studio review → verified or rejected. Transaction ID alone never marks a payment verified. Provider/ID duplicate claims are checked in local demo state including rejected history. Real concurrency guarantees require database constraints.
+
+Reviews capture decision, reason, simulated reviewer and time; mismatched amount blocks simulated verification. Rejected orders permit correction and keep history. Only verified sample orders can advance through processing/shipped/delivered. Real business records must be reconciled before fulfilment. Do not request another payment just because review takes time. Screenshots are locally validated, never uploaded/stored.
